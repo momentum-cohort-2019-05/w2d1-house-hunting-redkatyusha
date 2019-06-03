@@ -8,3 +8,6 @@ goal = float(total_cost)
 total_months = goal / monthly_savings
 
 print("Number of months: " + str(total_months))
+
+# current savings = 100
+# interest = current_savings * r / 12
