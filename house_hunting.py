@@ -21,3 +21,5 @@ else:
 while current_savings < down_payment:
     months += 1
     current_savings += monthly_savings + (current_savings * (r / 12))
+
+print("Number of months:", str(months))
